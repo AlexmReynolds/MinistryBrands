@@ -13,6 +13,26 @@
 		E79FF33326876CC9007FB33A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79FF33126876CC9007FB33A /* Main.storyboard */; };
 		E79FF33526876CCE007FB33A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79FF33426876CCE007FB33A /* Assets.xcassets */; };
 		E79FF33826876CCE007FB33A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79FF33626876CCE007FB33A /* LaunchScreen.storyboard */; };
+		E79FF34126876CE3007FB33A /* MBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF34026876CE3007FB33A /* MBUser.swift */; };
+		E79FF34426876D24007FB33A /* MBApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF34326876D24007FB33A /* MBApi.swift */; };
+		E79FF34826876E7D007FB33A /* MBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF34726876E7D007FB33A /* MBLoginViewController.swift */; };
+		E79FF34A26876E89007FB33A /* MBLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF34926876E89007FB33A /* MBLoginView.swift */; };
+		E79FF34C26877178007FB33A /* MBLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF34B26877178007FB33A /* MBLoginViewModel.swift */; };
+		E79FF34E26877364007FB33A /* MBUserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF34D26877364007FB33A /* MBUserListViewController.swift */; };
+		E79FF351268774BE007FB33A /* MBUserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF350268774BE007FB33A /* MBUserListView.swift */; };
+		E79FF353268774C5007FB33A /* MBUserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF352268774C5007FB33A /* MBUserListViewModel.swift */; };
+		E79FF35626877587007FB33A /* MBTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF35526877587007FB33A /* MBTheme.swift */; };
+		E79FF35826877730007FB33A /* MBUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF35726877730007FB33A /* MBUserTableViewCell.swift */; };
+		E79FF35C26877A3E007FB33A /* MBUserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF35B26877A3E007FB33A /* MBUserDetailsViewController.swift */; };
+		E79FF35E26877A67007FB33A /* MBUserDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF35D26877A67007FB33A /* MBUserDetailsViewModel.swift */; };
+		E79FF36026877AE4007FB33A /* MBUserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF35F26877AE4007FB33A /* MBUserDetailsView.swift */; };
+		E79FF36326877E4B007FB33A /* MBSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF36226877E4B007FB33A /* MBSettingsViewController.swift */; };
+		E79FF36526877E81007FB33A /* MBSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF36426877E81007FB33A /* MBSettingsViewModel.swift */; };
+		E79FF367268782DD007FB33A /* MBSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF366268782DD007FB33A /* MBSettingsView.swift */; };
+		E79FF3692687833E007FB33A /* MBSettingsToggleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF3682687833E007FB33A /* MBSettingsToggleCell.swift */; };
+		E79FF36B26878432007FB33A /* MBUserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF36A26878432007FB33A /* MBUserSettings.swift */; };
+		E79FF36D2687CE46007FB33A /* MBUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = E79FF36C2687CE46007FB33A /* MBUsers.json */; };
+		E79FF36F2687D01F007FB33A /* MBUserWebObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF36E2687D01F007FB33A /* MBUserWebObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +44,26 @@
 		E79FF33426876CCE007FB33A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E79FF33726876CCE007FB33A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E79FF33926876CCE007FB33A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79FF34026876CE3007FB33A /* MBUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBUser.swift; sourceTree = "<group>"; };
+		E79FF34326876D24007FB33A /* MBApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBApi.swift; sourceTree = "<group>"; };
+		E79FF34726876E7D007FB33A /* MBLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBLoginViewController.swift; sourceTree = "<group>"; };
+		E79FF34926876E89007FB33A /* MBLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBLoginView.swift; sourceTree = "<group>"; };
+		E79FF34B26877178007FB33A /* MBLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBLoginViewModel.swift; sourceTree = "<group>"; };
+		E79FF34D26877364007FB33A /* MBUserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBUserListViewController.swift; sourceTree = "<group>"; };
+		E79FF350268774BE007FB33A /* MBUserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBUserListView.swift; sourceTree = "<group>"; };
+		E79FF352268774C5007FB33A /* MBUserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBUserListViewModel.swift; sourceTree = "<group>"; };
+		E79FF35526877587007FB33A /* MBTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTheme.swift; sourceTree = "<group>"; };
+		E79FF35726877730007FB33A /* MBUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBUserTableViewCell.swift; sourceTree = "<group>"; };
+		E79FF35B26877A3E007FB33A /* MBUserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBUserDetailsViewController.swift; sourceTree = "<group>"; };
+		E79FF35D26877A67007FB33A /* MBUserDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBUserDetailsViewModel.swift; sourceTree = "<group>"; };
+		E79FF35F26877AE4007FB33A /* MBUserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBUserDetailsView.swift; sourceTree = "<group>"; };
+		E79FF36226877E4B007FB33A /* MBSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBSettingsViewController.swift; sourceTree = "<group>"; };
+		E79FF36426877E81007FB33A /* MBSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBSettingsViewModel.swift; sourceTree = "<group>"; };
+		E79FF366268782DD007FB33A /* MBSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBSettingsView.swift; sourceTree = "<group>"; };
+		E79FF3682687833E007FB33A /* MBSettingsToggleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBSettingsToggleCell.swift; sourceTree = "<group>"; };
+		E79FF36A26878432007FB33A /* MBUserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBUserSettings.swift; sourceTree = "<group>"; };
+		E79FF36C2687CE46007FB33A /* MBUsers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MBUsers.json; sourceTree = "<group>"; };
+		E79FF36E2687D01F007FB33A /* MBUserWebObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBUserWebObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +99,88 @@
 				E79FF32B26876CC9007FB33A /* AppDelegate.swift */,
 				E79FF32D26876CC9007FB33A /* SceneDelegate.swift */,
 				E79FF32F26876CC9007FB33A /* ViewController.swift */,
+				E79FF36126877E3E007FB33A /* SettingsView */,
+				E79FF35926877A25007FB33A /* UserDetailsView */,
+				E79FF3542687757E007FB33A /* Helpers */,
+				E79FF34626876E67007FB33A /* UsersViewController */,
+				E79FF34526876E62007FB33A /* Login */,
+				E79FF34226876D10007FB33A /* Api */,
+				E79FF33F26876CD4007FB33A /* DataModels */,
 				E79FF33126876CC9007FB33A /* Main.storyboard */,
 				E79FF33426876CCE007FB33A /* Assets.xcassets */,
 				E79FF33626876CCE007FB33A /* LaunchScreen.storyboard */,
 				E79FF33926876CCE007FB33A /* Info.plist */,
 			);
 			path = MinistryBrandsDemo;
+			sourceTree = "<group>";
+		};
+		E79FF33F26876CD4007FB33A /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				E79FF36E2687D01F007FB33A /* MBUserWebObject.swift */,
+				E79FF34026876CE3007FB33A /* MBUser.swift */,
+				E79FF36A26878432007FB33A /* MBUserSettings.swift */,
+				E79FF36C2687CE46007FB33A /* MBUsers.json */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		E79FF34226876D10007FB33A /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				E79FF34326876D24007FB33A /* MBApi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		E79FF34526876E62007FB33A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E79FF34726876E7D007FB33A /* MBLoginViewController.swift */,
+				E79FF34926876E89007FB33A /* MBLoginView.swift */,
+				E79FF34B26877178007FB33A /* MBLoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E79FF34626876E67007FB33A /* UsersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E79FF34D26877364007FB33A /* MBUserListViewController.swift */,
+				E79FF350268774BE007FB33A /* MBUserListView.swift */,
+				E79FF352268774C5007FB33A /* MBUserListViewModel.swift */,
+				E79FF35726877730007FB33A /* MBUserTableViewCell.swift */,
+			);
+			path = UsersViewController;
+			sourceTree = "<group>";
+		};
+		E79FF3542687757E007FB33A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E79FF35526877587007FB33A /* MBTheme.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E79FF35926877A25007FB33A /* UserDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				E79FF35B26877A3E007FB33A /* MBUserDetailsViewController.swift */,
+				E79FF35D26877A67007FB33A /* MBUserDetailsViewModel.swift */,
+				E79FF35F26877AE4007FB33A /* MBUserDetailsView.swift */,
+			);
+			path = UserDetailsView;
+			sourceTree = "<group>";
+		};
+		E79FF36126877E3E007FB33A /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				E79FF36226877E4B007FB33A /* MBSettingsViewController.swift */,
+				E79FF36426877E81007FB33A /* MBSettingsViewModel.swift */,
+				E79FF366268782DD007FB33A /* MBSettingsView.swift */,
+				E79FF3682687833E007FB33A /* MBSettingsToggleCell.swift */,
+			);
+			path = SettingsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E79FF33826876CCE007FB33A /* LaunchScreen.storyboard in Resources */,
+				E79FF36D2687CE46007FB33A /* MBUsers.json in Resources */,
 				E79FF33526876CCE007FB33A /* Assets.xcassets in Resources */,
 				E79FF33326876CC9007FB33A /* Main.storyboard in Resources */,
 			);
@@ -137,8 +254,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79FF34426876D24007FB33A /* MBApi.swift in Sources */,
+				E79FF367268782DD007FB33A /* MBSettingsView.swift in Sources */,
+				E79FF36026877AE4007FB33A /* MBUserDetailsView.swift in Sources */,
+				E79FF36F2687D01F007FB33A /* MBUserWebObject.swift in Sources */,
+				E79FF35826877730007FB33A /* MBUserTableViewCell.swift in Sources */,
+				E79FF36B26878432007FB33A /* MBUserSettings.swift in Sources */,
+				E79FF353268774C5007FB33A /* MBUserListViewModel.swift in Sources */,
+				E79FF35C26877A3E007FB33A /* MBUserDetailsViewController.swift in Sources */,
+				E79FF35626877587007FB33A /* MBTheme.swift in Sources */,
+				E79FF3692687833E007FB33A /* MBSettingsToggleCell.swift in Sources */,
+				E79FF36526877E81007FB33A /* MBSettingsViewModel.swift in Sources */,
 				E79FF33026876CC9007FB33A /* ViewController.swift in Sources */,
+				E79FF351268774BE007FB33A /* MBUserListView.swift in Sources */,
+				E79FF34E26877364007FB33A /* MBUserListViewController.swift in Sources */,
+				E79FF35E26877A67007FB33A /* MBUserDetailsViewModel.swift in Sources */,
+				E79FF34126876CE3007FB33A /* MBUser.swift in Sources */,
+				E79FF34826876E7D007FB33A /* MBLoginViewController.swift in Sources */,
+				E79FF34A26876E89007FB33A /* MBLoginView.swift in Sources */,
+				E79FF34C26877178007FB33A /* MBLoginViewModel.swift in Sources */,
 				E79FF32C26876CC9007FB33A /* AppDelegate.swift in Sources */,
+				E79FF36326877E4B007FB33A /* MBSettingsViewController.swift in Sources */,
 				E79FF32E26876CC9007FB33A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

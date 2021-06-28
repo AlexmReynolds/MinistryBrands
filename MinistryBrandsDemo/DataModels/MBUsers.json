@@ -1,0 +1,45 @@
+{
+    "users" : [{
+        "first_name" : "John",
+        "last_name" : "Doe",
+        "age" : "26",
+        "street" :"312 W 15th St",
+        "city" :"Phoenix",
+        "state" :"AZ",
+        "post_code" :"85022"
+    },{
+        "first_name" : "James",
+        "last_name" : "Johnson",
+        "age" : "29",
+        "street" :"123 SE 19th St",
+        "city" :"Phoenix",
+        "state" :"AZ",
+        "post_code" :"85022"
+    },{
+        "first_name" : "Kevin",
+        "last_name" : "Clarkson",
+        "age" : "44",
+        "street" :"754 S 9th St",
+        "city" :"Phoenix",
+        "state" :"AZ",
+        "post_code" :"85022"
+    },{
+        "first_name" : "Carl",
+        "last_name" : "Weathers",
+        "age" : "61",
+        "street" :"4632 SE 25th St",
+        "city" :"Phoenix",
+        "state" :"AZ",
+        "post_code" :"85022"
+    },{
+        "first_name" : "John",
+        "last_name" : "Johnson",
+        "age" : "22",
+        "street" :"332 N 20th St",
+        "city" :"Phoenix",
+        "state" :"AZ",
+        "post_code" :"85022"
+    }]
+}
+
+
